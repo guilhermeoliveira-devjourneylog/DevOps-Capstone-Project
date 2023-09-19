@@ -41,7 +41,7 @@ class TestAccountService(TestCase):
 
     def setUp(self):
         """Runs before each test"""
-         # clean up the last tests
+        # clean up the last tests
         db.session.query(Account).delete()  # pylint: disable=no-member
         db.session.commit()  # pylint: disable=no-member
 
