@@ -209,12 +209,12 @@
 			"value": "512Mi",
 			"required": true
 		},
-		{
-			"name": "NAMESPACE",
-			"displayName": "Namespace",
-			"description": "The OpenShift Namespace where the ImageStream resides.",
-			"value": "openshift"
-		},
+        {
+            "name": "NAMESPACE",
+            "displayName": "Namespace",
+            "description": "The OpenShift Namespace where the ImageStream resides.",
+            "value": "sn-labs-devguilherm1"
+        },
 		{
 			"name": "DATABASE_SERVICE_NAME",
 			"displayName": "Database Service Name",
